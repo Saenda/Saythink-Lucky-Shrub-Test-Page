@@ -1,0 +1,129 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+h1 {
+    color: rgb(4, 57, 73);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgb(4, 57, 73);
+}
+
+header {
+    background-color: rgb(10, 83, 105);
+    padding: 2%;
+}
+
+header > img {
+    display: flex;
+    block-size: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation Menu */
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(10, 83, 105);
+    font-size: large;
+    font-weight: bold;
+    transition: transform 0.3s, color 1s;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(8, 209, 149);
+    transition: transform 0.3s, color 0.3s;
+    transform: scale(1.06);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1rem;
+    padding-inline: 2rem;
+}
+
+/* Main */
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding-top: 2%;
+    padding-inline: 4%;
+    padding-bottom: 4%;
+    margin-inline: 5%;
+    margin-bottom: 3%;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+article {
+    flex: 3;
+}
+
+.secondary {
+    display: flex;
+    width: 100%;
+    height: auto;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+.secondary:hover {
+    display: flex;
+    width: 100%;
+    height: auto;
+    box-shadow: 0rem 0rem 0rem rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    padding: 1%;
+    background-color: rgb(10, 83, 105);
+    align-items: center;
+    margin-bottom: 0;
+}
+
+footer img {
+    display: block;
+    block-size: 5rem;
+    margin-inline: 8%;
+}
+
+footer p {
+    color: aliceblue;
+    font-size: 0.8rem;
+}
+
+footer div {
+    flex: 1;
+}
+
